@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+:root{
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --white:#fff;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--VeryLightGray);   
+
+}
+.container .heading{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 10%;
+}
+.container .heading .content{
+   margin: auto;
+   padding: auto;
+   text-align: center;
+   line-height: 1.5rem;
+}
+.container .heading .content #lighter{
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--GrayishBlue);
+}
+.container .heading .content #bold{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--VeryDarkBlue);
+}
+.container .heading .content p{
+    color: var(--GrayishBlue);
+    max-width: 30rem;
+}
+
+
+.container .our_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin-left: 5rem;
+
+}
+.container .our_body p{
+    color: var(--GrayishBlue);
+
+}
+.container .our_body .supervisor{
+   
+    border-top: 5px solid var(--Cyan);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin:1.2rem;
+    padding: 2rem;
+    position: relative;    
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+
+}
+.container .our_body .supervisor .image{
+  display: flex;
+  justify-content: end;
+
+}
+.container .our_body .calculator{
+   
+    border-top: 5px solid var(--Blue);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin:1.2rem;
+    padding: 2rem;
+    position: relative;    
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+
+}
+.container .our_body .calculator .image{ 
+    display: flex;
+  justify-content: end;
+
+}
+.container .our_body .double .team_builder{
+   
+    border-top: 5px solid var(--Red);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin:1.2rem;
+    padding: 2rem;
+    position: relative;    
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+
+}
+.container .our_body .double .team_builder .image{
+    display: flex;
+  justify-content: end;
+
+}
+.container .our_body .double .karma{
+   
+    border-top: 5px solid var(--Orange);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin:1.2rem;
+    padding: 2rem;
+    position: relative;    
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+
+}
+.container .our_body .double .karma .image{
+    display: flex;
+  justify-content: end;
+}
+.container .our_body .double{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*media queries*/
+@media(max-width:900px){
+    .container .our_body{
+        display: flex;
+        flex-direction: column;
+      
+    
+    }
+}
+@media(max-width:430px){
+    .container .heading .content #lighter{
+       
+        font-size: 18px;
+        
+    }
+    .container .heading .content #bold{
+        
+        font-size: 18px;
+       
+    }
+}
