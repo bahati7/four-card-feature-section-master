@@ -47,7 +47,7 @@ https://github.com/bahati7/four-card-feature-section-master/blob/main/screenshot
 
 In this project I learned how to manage cards using flexbox
 
-To see how you can add code snippets, see below:
+
 
 
 
